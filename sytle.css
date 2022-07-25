@@ -1,0 +1,56 @@
+
+
+/*Aca comienza la creacionn del header principal*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2937;
+
+}
+li, a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+header {
+    
+    display: flex;
+   
+    justify-content: space-between;
+    
+    align-items: center;
+
+    padding-top: 16px;
+    padding-left:  100px;
+    padding-right: 100px;
+    padding-bottom: 72px;
+    
+}
+.titulo{
+    color: #E5E7EB;
+    justify-self: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 54px;
+    
+}
+
+.nav_links{
+    
+    list-style: none;
+    
+}
+.nav_links li{
+    display:inline-block;
+    padding: 0px 15px;
+   
+}
+.nav_links li a{
+    color: #E5E7EB;
+    
+}
+
+
+
+
