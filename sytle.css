@@ -6,7 +6,13 @@
     margin: 0;
     padding: 0;
     background-color: #1f2937;
+    
 
+}
+body{
+    width: auto;
+    align-items: center;
+    
 }
 li, a{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -29,10 +35,10 @@ header {
     
 }
 .titulo{
-    color: #E5E7EB;
+    color: #f9faf8;
     justify-self: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 54px;
+    font-size: 24px;
     
 }
 
@@ -51,6 +57,56 @@ header {
     
 }
 
+/* ACA COMIENZA LA CREACION DE LA PRIMERA SECCION !!!!!*/
+
+div .info{
+    height: 189px;
+    width: 719px;
 
 
+}
+
+
+.primero{
+    display: flex;
+    
+    
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    padding-top: 16px;
+    padding-left:  100px;
+    padding-right: 100px;
+    padding-bottom: 72px;
+
+
+}
+img {
+    border: none;
+    border-radius: 25px;
+}
+
+
+
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    margin-top: 24px;
+}
 
