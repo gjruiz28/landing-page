@@ -2,16 +2,18 @@
 
 /*Aca comienza la creacionn del header principal*/
 *{
-    box-sizing: border-box;
+   /* box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    background-color: #1f2937;
+    padding: 0;*/
+    
     
 
 }
 body{
     width: auto;
+    height: 1990px;
     align-items: center;
+    text-align: center;
     
 }
 li, a{
@@ -32,6 +34,7 @@ header {
     padding-left:  100px;
     padding-right: 100px;
     padding-bottom: 72px;
+    background-color: #1f2937;
     
 }
 .titulo{
@@ -69,7 +72,7 @@ div .info{
 
 .primero{
     display: flex;
-    
+    background-color: #1f2937;
     
     justify-content: space-between;
     align-items: flex-start;
@@ -81,7 +84,7 @@ div .info{
 
 
 }
-img {
+.fuente{
     border: none;
     border-radius: 25px;
 }
@@ -112,5 +115,61 @@ button{
 /*falta agregar que al modificar el size de la pagina esta no cambie, perop ya la primera parte esta hecha*/
 
 /*comienza el dise;o de random information*/
+
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: grey;
+    background-color: white;
+    font-size: 24px;
+    height: 300px;
+    padding-top: 16px;
+    padding-top: 16px;
+    padding-left:  100px;
+    padding-right: 100px;
+    padding-bottom: 72px;
+    gap: 16px;
+}
+img{
+    border: none;
+    border-radius: 25px;
+    margin: auto solid ;
+}
+
+/*en esta parte comienza el quote*/
+
+.quote{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    justify-content: center;
+    text-align: justify;
+}
+.nota{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+h3{
+    align-self: flex-end;
+    margin-right: 300px;
+    font-weight: bold;
+    
+}
 
 
