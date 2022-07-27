@@ -76,6 +76,7 @@ div .info{
     
     justify-content: space-between;
     align-items: flex-start;
+    text-align: justify;
     
     padding-top: 16px;
     padding-left:  100px;
@@ -111,6 +112,8 @@ button.one{
     color: white;
     font-weight: bold;
     margin-top: 24px;
+    height: 48px;
+    font-size: 24px;
 }
 /*falta agregar que al modificar el size de la pagina esta no cambie, perop ya la primera parte esta hecha*/
 
@@ -179,7 +182,7 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 110px;
     margin-bottom: 100px;
     
 }
@@ -193,6 +196,7 @@ h3{
     padding-left: 48px;
     padding-right: 48px;
     border-radius: 25px;
+    
 
 }
 
@@ -230,6 +234,19 @@ button.two{
 
 /*finaliza la seccion 3*/
 
+/*inicia el footer*/
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f2937;
+    color: #E5E7EB;
+  }
 
 
